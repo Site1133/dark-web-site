@@ -1,0 +1,415 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #00ff00; /* Verde típico da dark web */
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    color: #00ff00; /* Verde para o copyright */
+    font-size: 16px;
+}
+
+/* Estilo dos botões de rolagem */
+.scroll-btn {
+    position: fixed;
+    right: 20px;
+    background-color: #444;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#scrollUp {
+    bottom: 80px; /* Distância do botão do fundo */
+}
+
+#scrollDown {
+    bottom: 20px; /* Distância do botão do fundo */
+}
+
+.scroll-btn:hover {
+    background-color: #666;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #00ff00; /* Verde típico da dark web */
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    color: #00ff00; /* Verde para o copyright */
+    font-size: 16px;
+}
+
+/* Estilo dos botões de rolagem */
+.scroll-btn {
+    position: fixed;
+    right: 20px;
+    background-color: #444;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#scrollUp {
+    bottom: 80px; /* Distância do botão do fundo */
+}
+
+#scrollDown {
+    bottom: 20px; /* Distância do botão do fundo */
+}
+
+.scroll-btn:hover {
+    background-color: #666;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.slideshow-title {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid blue;
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: blue;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.theme-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    text-align: right;
+}
+
+/* Modo escuro */
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container.dark {
+    background-color: #1f1f1f;
+}
+
+li.dark {
+    background-color: #444;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.theme-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    text-align: right;
+}
+
+/* Modo escuro */
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container.dark {
+    background-color: #1f1f1f;
+}
+
+li.dark {
+    background-color: #444;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #00ff00; /* Verde típico da dark web */
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #00ff00; /* Verde típico da dark web */
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    color: #00ff00; /* Verde para o copyright */
+    font-size: 16px;
+}
